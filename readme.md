@@ -10,3 +10,8 @@ devpi from local build
     cd devpi-docker-image
     docker build -t pedroarthur/devpi:local .
     docker run --rm -it -p 3141:3141 pedroarthur/devpi:local
+
+Collaborating
+===
+
+Feel free to send PRs. The ideia is to keep this repo simple.
